@@ -1,0 +1,53 @@
+.coffee,
+.merch{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+}
+
+.shop-items_container .h3{
+    flex: 0 0 100%;
+}
+
+.shop-item{
+    width: 300px;
+    object-fit: cover;
+    height: auto;
+    margin: 2rem 1rem;
+    position: relative;
+}
+
+.item-info{
+    display: inline-block;
+    width: 80%;
+    height: auto;
+    bottom: -30px;
+    left: -45%;
+    position: absolute;
+    background: @color-primary;
+    transform: translate(70%, 0);
+}
+.shop-item .h4{
+    font-family: @font-family-secondary;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    text-transform: uppercase;
+}
+
+.shop-item p{
+    color: white;
+}
+
+.shop-heading{
+    font-family: @font-family-secondary;
+    font-weight: 600;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    text-align: center;
+    color: @color-primary;
+}
